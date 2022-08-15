@@ -12,7 +12,7 @@ contract ISLET is ERC721, ERC721Enumerable, ERC721URIStorage, Ownable {
 
     Counters.Counter private _tokenIdCounter;
     uint256 MAX_SUPPLY = 100000;
-    constructor() ERC721("ISLET", "ISL") {}
+    constructor() ERC721("ISLET2", "ISL2") {}
 
     function safeMint(address to, string memory uri) public {
         uint256 tokenId = _tokenIdCounter.current();
